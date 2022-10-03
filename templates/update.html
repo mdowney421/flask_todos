@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask To Dos</title>
+</head>
+<body>
+    <form method="POST">
+        {{ update_form.todo.label }}
+        {{ update_form.todo() }}
+        {{ update_form.submit() }}
+    </form>
+</body>
+</html>
